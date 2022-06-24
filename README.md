@@ -1,2 +1,2 @@
-# execute app
-npm startls
+# Execute app
+npm start
