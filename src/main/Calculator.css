@@ -1,0 +1,12 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    /* remover passa do maximo de altura e largura */
+    overflow: hidden;
+    display: grid;
+
+    grid-template-columns: repeat(4, 25%);
+    /* 1 fragmento para pegar altura restante */
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
